@@ -1,0 +1,58 @@
+/* Styles for the header */
+.header {
+    position: fixed;
+    z-index: 2;
+    background-color: #040346;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    padding: 4rem;
+}
+
+.navBar {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.graph-holder {
+    width: 100%;
+}
+
+.tableauPlaceholder {
+    padding: 0px 200px 200px 200px;
+}
+
+body {
+    width: 70vw;
+    background-color: blanchedalmond;
+}
+
+h1 {
+    text-align: center;
+    margin-left: 30vw;
+}
+
+.copyright {
+    font-size: 14px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.text-muted {
+    color: #6c757d;
+}
